@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.container{
+    /* width: 500px;
+    height: 450px; */
+    /* border: 1px solid white; */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.label{
+    width: 30px;
+    margin: 10px 5px 0px 5px;
+    /* background-color: white; */
+}
+
+/* .value{
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: -30px;
+    left: 25%;
+} */
+
+.t-btn{
+    margin-top: 30px;
+    display: flex;
+}
+
+.gen{
+    width: 110px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.gen:hover{
+    background-color: white;
+    color: black;
+}
+
+.sort{
+    width: 110px;
+        border: none;
+        outline: none;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        cursor: pointer;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        border-radius: 10px;
+        margin-left: 20px;
+}
+
+.sort:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 540px) {
+    .label{
+        width: 18px;
+        font-size: 14px;
+        text-align: center;
+    }
+}

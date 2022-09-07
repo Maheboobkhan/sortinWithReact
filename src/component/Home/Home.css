@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home-container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    width: 80%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+
+.heading{
+    color: crimson;
+    font-weight: bold;
+}
+
+.btn-container{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    background-color: orange;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.bubble{
+    width: 120px;
+    font-size: 17px;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bubble:hover{
+    background-color: rgb(142, 124, 124);
+    color: rgb(20, 18, 18);
+}
+
+
+.selection {
+    width: 140px;
+    font-size: 17px;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.selection:hover {
+    background-color: rgb(142, 124, 124);
+    color: rgb(20, 18, 18);
+}
+
+
+.insertion {
+    width: 130px;
+    font-size: 17px;
+    border: none;
+    padding: 4px 8px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.insertion:hover {
+    background-color: rgb(142, 124, 124);
+    color: rgb(20, 18, 18);
+}
+
+
+/* media query */
+@media screen and (max-width: 768px) {
+    .home{
+        width: 96%;
+    }
+
+    .heading{
+        font-size: 35px;
+    }
+
+    .btn-container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .home {
+        width: 70%;
+        height: 50%;
+        padding: 15px;
+    }
+
+    .heading {
+        font-size:30px;
+        margin-top: 30px;
+    }
+
+
+    .btn-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 150px;
+        margin: auto;
+    }
+
+    .bubble{
+        margin: 20px;
+    }
+
+    .selection {
+        margin: 20px;
+    }
+
+    .insertion {
+        margin: 20px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .heading{
+        text-align: center;
+    }
+
+    .home{
+        height: 90%;
+    }
+}
