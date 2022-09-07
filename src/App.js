@@ -1,4 +1,3 @@
-import "./App.css";
 import Bubble from "./component/Bubble/Bubble";
 import Selection from "./component/Selection/Selection";
 import Insertion from "./component/Insertion/Insertion";
